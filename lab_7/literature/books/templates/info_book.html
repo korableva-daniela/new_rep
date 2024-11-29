@@ -1,0 +1,28 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'books/css/sti.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <span class="logo">Библиотека</span>
+	<title>Подробная информация о книге</title>
+  </head>
+  <body>
+    <header>
+    <h4>Подробная информация о книге:  </h4>
+        <h4>{{ instance.title }} </h4>
+          </header>
+    <p>ID:{{ instance.id }}<p>
+               <p> Дата добавления книги: {{ instance.year_of_pub }} <p>
+               <p> Аннотация: {{ instance.content }} <p>
+               <p> Лайки: {{ instance.post_likes  }} <p>
+
+  </body>
+</html>

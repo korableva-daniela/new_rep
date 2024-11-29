@@ -1,0 +1,30 @@
+
+h1 {
+ text-align: center;
+ margin-top: 50px;
+    font-size: 900px;
+    color:#E6E6FA;
+
+}
+body{
+    background: #FFC0CB;
+}
+header {
+    text-align: center;
+    letter-spacing: 2px;
+    background: #FFF8DC;
+    color: #A52A2A;
+    border-bottom: 5px outset #FFE4E1;
+}
+
+form{
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+
+}
+button
+{
+border-bottom: groove;
+border-bottom-right-radius: 250px 100px;
+}
